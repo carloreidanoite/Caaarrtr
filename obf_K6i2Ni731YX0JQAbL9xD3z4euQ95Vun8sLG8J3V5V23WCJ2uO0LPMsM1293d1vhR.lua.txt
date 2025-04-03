@@ -4,7 +4,7 @@
 local LocalPlayer = Players.LocalPlayer
 local allowedIDs = {
     [1215956716] = true, --  "b4"
-    [3022981972] = true  --  "semnexo"
+    [3022981972] = true,  --  "semnexo"
     [664059035] = true  --  "jcie"
 }
 
