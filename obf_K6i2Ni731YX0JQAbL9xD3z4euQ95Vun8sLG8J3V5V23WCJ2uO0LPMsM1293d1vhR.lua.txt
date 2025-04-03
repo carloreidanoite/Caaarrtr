@@ -1,6 +1,4 @@
-   
-
- local Players = game:GetService("Players")
+local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local allowedIDs = {
     [1215956716] = true, --  "b4"
