@@ -8,7 +8,6 @@ local allowedIDs = {
     [4199321795] = true,  --  "Wave sadness"
     [5014280564] = true  --  "Wave"
 
-
 }
 
 if not allowedIDs[LocalPlayer.UserId] then
