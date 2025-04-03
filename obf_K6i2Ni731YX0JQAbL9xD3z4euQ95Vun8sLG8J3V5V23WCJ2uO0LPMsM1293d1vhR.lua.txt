@@ -11,7 +11,7 @@ local allowedIDs = {
 }
 
 if not allowedIDs[LocalPlayer.UserId] then
-    LocalPlayer:Kick("Acesso Negado. VocÃª nÃ£o tem permissÃ£o para usar este Hub.")
+    LocalPlayer:Kick("Sem permissao")
     return
 end
 
