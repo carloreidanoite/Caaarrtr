@@ -661,3 +661,19 @@ spawnAllBalloons = Value -- Update the toggle state
 		end
    end,
 })
+
+local Tab = Window:CreateTab("Hubs de skins 🇧🇷·",93714834687143) -- Title, Image
+
+Tab:CreateButton({
+    Name = "🇧🇷 Armazém rápido de skins 🇧🇷",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/carloreidanoite/Caaarrtr/refs/heads/main/Save"))()
+    end
+})
+
+Tab:CreateButton({
+    Name = "🇧🇷 Acessórios por id V2 🇧🇷",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/J3Aiv8y2"))()
+    end
+})
