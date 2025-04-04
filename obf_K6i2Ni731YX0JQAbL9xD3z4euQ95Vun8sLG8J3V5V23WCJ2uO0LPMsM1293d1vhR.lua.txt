@@ -6,9 +6,9 @@ local allowedIDs = {
     [664059035] = true,  --  "jcie"
     [1520840583] = true,  --  "sheik"
     [4199321795] = true,  --  "Wave sadness"
-    [5014280564] = true  --  "Wave"
-    [1769646881] = true  --  "Wavezada"
-    [2844968286] = true  --  "Von"
+    [5014280564] = true,  --  "Wave"
+    [1769646881] = true,  --  "Wavezada"
+    [2844968286] = true,  --  "Von"
     [1392571891] = true  --  "Soneca"
 
 }
