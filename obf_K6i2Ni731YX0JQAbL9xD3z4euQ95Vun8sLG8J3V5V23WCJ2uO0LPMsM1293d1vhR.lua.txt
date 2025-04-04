@@ -23,7 +23,7 @@ end
 local playerHeadIcon = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. LocalPlayer.UserId .. "&width=420&height=420&format=png"
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "ðŸ‡§ðŸ‡·MENU COPIAR AVATARðŸ‡§ðŸ‡·",
+    Title = "🇧🇷·MENU COPIAR AVATAR·🇧🇷",
     Text = "Carregando...",
     Icon = playerHeadIcon,
     Duration = 5,
@@ -341,9 +341,9 @@ end
 
 playOpeningSound()
 local Window = Rayfield:CreateWindow({
-   Name = "discord; deleteduser7bsf5cs ðŸ˜‰| " .. executorName .. " | " .. gameName,
+   Name = "discord; deleteduser7bsf5cs 😉 " .. executorName .. " | " .. gameName,
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "ðŸ‡§ðŸ‡·ðŸ‡§ðŸ‡·ðŸ‡§ðŸ‡·",
+   LoadingTitle = "🇧🇷🇧🇷🇧🇷·",
    LoadingSubtitle = "by semnexo",
    Theme = "AmberGlow", -- Check https://docs.sirius.menu/rayfield/con
    
@@ -375,13 +375,13 @@ local Window = Rayfield:CreateWindow({
 })
 
 Rayfield:Notify({
-   Title = "ðŸ‡§ðŸ‡·",
+   Title = "🇧🇷",
    Content = "NÃ£o Ã© permitido a compartilhaÃ§Ã£o da senha ou do hub em si sem minha permissÃ£o, caso eu descubra tiro o hub do ar e ambos ficam na desvantagem.",
    Duration = 12,
    Image = 93714834687143,
 })
 
-local Tab = Window:CreateTab("Copiar ðŸ‡§ðŸ‡·",93714834687143) -- Title, Image
+local Tab = Window:CreateTab("Copiar 🇧🇷·",93714834687143) -- Title, Image
 
 local function colorToTable(clr)
     return {tostring(clr.R * 255), tostring(clr.G * 255), tostring(clr.B * 255)}
@@ -475,7 +475,7 @@ end
 Players.PlayerAdded:Connect(LoadPlayer)
 
 Tab:CreateButton({
-    Name = "ðŸ‡§ðŸ‡· Copiar seu avatar prÃ³prio ðŸ‡§ðŸ‡·",
+    Name = "🇧🇷· Copiar seu avatar prÃ³prio ·🇧🇷",
     Callback = function()
         local player = Players.LocalPlayer
         local character = player.Character
@@ -486,7 +486,7 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
-    Name = "ðŸ‡§ðŸ‡· Carregar avatar ðŸ‡§ðŸ‡·",
+    Name = "🇧🇷· Carregar avatar ·🇧🇷",
     Callback = function()
         if AvatarClipboard then
             game:GetService("ReplicatedStorage").FunctionConnections.NewAESaveAvatar:InvokeServer(AvatarClipboard)
@@ -495,7 +495,7 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
-    Name = "ðŸ‡§ðŸ‡· Salvar ðŸ‡§ðŸ‡·",
+    Name = "🇧🇷· Salvar ·🇧🇷",
     Callback = function()
         -- Primeiro, executa o RequestBroadcastString
         local args = {
@@ -512,7 +512,7 @@ Tab:CreateButton({
 })
 
 local LoadAvatarFromUserId = Tab:CreateInput({
-   Name = " ðŸ‡§ðŸ‡· Avatar por id ðŸ‡§ðŸ‡·",
+   Name = "🇧🇷· Avatar por id ·🇧🇷",
    CurrentValue = "",
    PlaceholderText = "Enter UserId",
    RemoveTextAfterFocusLost = false,
@@ -526,7 +526,7 @@ local LoadAvatarFromUserId = Tab:CreateInput({
 })
 
 local LoadAvatarFromUsername = Tab:CreateInput({
-   Name = "ðŸ‡§ðŸ‡· Avatar por nickname ðŸ‡§ðŸ‡·",
+   Name = "🇧🇷· Avatar por nickname ·🇧🇷",
    CurrentValue = "",
    PlaceholderText = "Enter Username",
    RemoveTextAfterFocusLost = false,
