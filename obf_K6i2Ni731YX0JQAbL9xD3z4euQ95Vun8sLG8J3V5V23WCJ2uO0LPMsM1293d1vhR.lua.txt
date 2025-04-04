@@ -9,7 +9,9 @@ local allowedIDs = {
     [5014280564] = true,  --  "Wave"
     [1769646881] = true,  --  "Wavezada"
     [2844968286] = true,  --  "Von"
-    [1392571891] = true  --  "Soneca"
+    [1392571891] = true,  --  "Soneca"
+    [7916468900] = true,  --  "connor1"
+    [8089681149] = true  --  "connor2"
 
 }
 
