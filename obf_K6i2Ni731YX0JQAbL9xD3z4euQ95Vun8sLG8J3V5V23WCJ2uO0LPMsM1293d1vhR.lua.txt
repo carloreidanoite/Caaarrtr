@@ -23,7 +23,7 @@ end
 local playerHeadIcon = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. LocalPlayer.UserId .. "&width=420&height=420&format=png"
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "ðŸ‡§ðŸ‡·Â·MENU COPIAR AVATARÂ·ðŸ‡§ðŸ‡·",
+    Title = "🇧🇷 MENU COPIAR AVATAR 🇧🇷",
     Text = "Carregando...",
     Icon = playerHeadIcon,
     Duration = 5,
@@ -312,7 +312,7 @@ end)
 
 game.StarterGui:SetCore("SendNotification", {
     Title = "Espera caralho",
-    Text = "calegandoÃ°Å¸â€“â€¢",
+    Text = "carregando 🐒",
     Icon = playerHeadIcon,
     Duration = 3,
     Button1 = "Ok pau no cu"
@@ -341,9 +341,9 @@ end
 
 playOpeningSound()
 local Window = Rayfield:CreateWindow({
-   Name = "discord; deleteduser7bsf5cs ðŸ˜‰ " .. executorName .. " | " .. gameName,
+   Name = "discord; deleteduser7bsf5cs " .. executorName .. " | " .. gameName,
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "ðŸ‡§ðŸ‡·ðŸ‡§ðŸ‡·ðŸ‡§ðŸ‡·Â·",
+   LoadingTitle = "🇧🇷🇧🇷🇧🇷",
    LoadingSubtitle = "by semnexo",
    Theme = "AmberGlow", -- Check https://docs.sirius.menu/rayfield/con
    
@@ -370,18 +370,18 @@ local Window = Rayfield:CreateWindow({
       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"brasilhubnexo"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"anexo"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
 Rayfield:Notify({
-   Title = "ðŸ‡§ðŸ‡·",
-   Content = "NÃƒÂ£o ÃƒÂ© permitido a compartilhaÃƒÂ§ÃƒÂ£o da senha ou do hub em si sem minha permissÃƒÂ£o, caso eu descubra tiro o hub do ar e ambos ficam na desvantagem.",
+   Title = "🇧🇷",
+   Content = "Não é permitido a compartilhação da senha ou do hub em si sem minha permissão, caso eu descubra tiro o hub do ar e ambos ficam na desvantagem.",
    Duration = 12,
    Image = 93714834687143,
 })
 
-local Tab = Window:CreateTab("Copiar ðŸ‡§ðŸ‡·Â·",93714834687143) -- Title, Image
+local Tab = Window:CreateTab("Copiar 🇧🇷",93714834687143) -- Title, Image
 
 local function colorToTable(clr)
     return {tostring(clr.R * 255), tostring(clr.G * 255), tostring(clr.B * 255)}
@@ -475,7 +475,7 @@ end
 Players.PlayerAdded:Connect(LoadPlayer)
 
 Tab:CreateButton({
-    Name = "ðŸ‡§ðŸ‡·Â· Copiar seu avatar prÃƒÂ³prio Â·ðŸ‡§ðŸ‡·",
+    Name = "🇧🇷 Copiar seu avatar próprio 🇧🇷",
     Callback = function()
         local player = Players.LocalPlayer
         local character = player.Character
@@ -486,7 +486,7 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
-    Name = "ðŸ‡§ðŸ‡·Â· Carregar avatar Â·ðŸ‡§ðŸ‡·",
+    Name = "🇧🇷 Carregar avatar 🇧🇷",
     Callback = function()
         if AvatarClipboard then
             game:GetService("ReplicatedStorage").FunctionConnections.NewAESaveAvatar:InvokeServer(AvatarClipboard)
@@ -495,7 +495,7 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
-    Name = "ðŸ‡§ðŸ‡·Â· Salvar Â·ðŸ‡§ðŸ‡·",
+    Name = "🇧🇷 Salvar 🇧🇷",
     Callback = function()
         -- Primeiro, executa o RequestBroadcastString
         local args = {
@@ -512,7 +512,7 @@ Tab:CreateButton({
 })
 
 local LoadAvatarFromUserId = Tab:CreateInput({
-   Name = "ðŸ‡§ðŸ‡·Â· Avatar por id Â·ðŸ‡§ðŸ‡·",
+   Name = "🇧🇷 Avatar por id 🇧🇷",
    CurrentValue = "",
    PlaceholderText = "Enter UserId",
    RemoveTextAfterFocusLost = false,
@@ -526,7 +526,7 @@ local LoadAvatarFromUserId = Tab:CreateInput({
 })
 
 local LoadAvatarFromUsername = Tab:CreateInput({
-   Name = "ðŸ‡§ðŸ‡·Â· Avatar por nickname Â·ðŸ‡§ðŸ‡·",
+   Name = "🇧🇷 Avatar por nickname 🇧🇷",
    CurrentValue = "",
    PlaceholderText = "Enter Username",
    RemoveTextAfterFocusLost = false,
@@ -539,11 +539,11 @@ local LoadAvatarFromUsername = Tab:CreateInput({
    end,
 })
 
-local Section = Tab:CreateSection("Spawn de BalÃƒÂµes")
+local Section = Tab:CreateSection("Spawn de Balões")
 
 local Dropdown = Tab:CreateDropdown({
-   Name = "Selecionar balÃƒÂ£o",  -- Balloon color dropdown
-   Options = {"Vermelho", "Azul", "Verde", "Roxo", "Branco", "CoraÃƒÂ§ÃƒÂ£o"},  -- Color options
+   Name = "Selecionar balão",  -- Balloon color dropdown
+   Options = {"Vermelho", "Azul", "Verde", "Roxo", "Branco", "Coração"},  -- Color options
    CurrentOption = {"Vermelho"},  -- Default option
    MultipleOptions = false,  -- Only one option can be selected
    Flag = "BalloonColor",  -- Flag to identify the configuration
@@ -555,16 +555,14 @@ local Dropdown = Tab:CreateDropdown({
 })
 
 local Toggle = Tab:CreateToggle({
-   Name = "ComeÃƒÂ§ar Spam do balÃƒÂ£o selecionado",  -- Start balloon spawning toggle
+   Name = "Começar Spam do balão selecionado",  -- Start balloon spawning toggle
    CurrentValue = false,  -- Default value (false = not spawning)
    Flag = "SpawnBalloons",  -- Flag to identify the configuration
    Callback = function(Value)
-      -- Update the spawnBalloons state
       spawnBalloons = Value
       print("Spawning balloons: " .. tostring(spawnBalloons))
 
       if spawnBalloons then
-         -- Start balloon spawning in a separate thread
          task.spawn(function()
             while spawnBalloons do
                -- Map the selected balloon color to the balloon IDs
@@ -579,7 +577,7 @@ local Toggle = Tab:CreateToggle({
                   balloonID = 1314
                elseif selectedBalloonColor == "Branco" then
                   balloonID = 1315
-               elseif selectedBalloonColor == "CoraÃƒÂ§ÃƒÂ£o" then
+               elseif selectedBalloonColor == "Coração" then
                   balloonID = 1039  -- Heart balloon ID
                end
 
@@ -597,7 +595,7 @@ local Toggle = Tab:CreateToggle({
                game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args))
                game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args2))
 
-               task.wait(0)  -- Wait before spawning the next balloon
+               task.wait(0)
             end
          end)
       end
@@ -607,72 +605,48 @@ local Toggle = Tab:CreateToggle({
 local spawnAllBalloons = false -- To control the toggle
 
 local Toggle = Tab:CreateToggle({
-   Name = "Spawnar todos balÃƒÂµes",
+   Name = "Spawnar todos balões",
    CurrentValue = false,
-   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Flag = "Toggle1",
    Callback = function(Value)
-spawnAllBalloons = Value -- Update the toggle state
-		print("Spawning all balloons: " .. tostring(spawnAllBalloons))
+      spawnAllBalloons = Value
+      print("Spawning all balloons: " .. tostring(spawnAllBalloons))
 
-		if spawnAllBalloons then
-			-- Start spawning all balloons in a separate thread
-			task.spawn(function()
-				while spawnAllBalloons do
-					-- Spawn balloon with ID 1311
-					local args = {
-						[1] = 201,
-						[2] = 1311,
-						[3] = {}
-					}
-					local args2 = {
-						[1] = 202
-					}
-					game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args))
-					game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args2))
-
-					-- Spawn balloon with ID 1312
-					args[2] = 1312
-					game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args))
-					game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args2))
-
-					-- Spawn balloon with ID 1313
-					args[2] = 1313
-					game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args))
-					game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args2))
-
-					-- Spawn balloon with ID 1314
-					args[2] = 1314
-					game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args))
-					game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args2))
-
-					-- Spawn balloon with ID 1315
-					args[2] = 1315
-					game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args))
-					game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args2))
-
-					-- Spawn balloon with ID 1039 (new addition)
-					args[2] = 1039
-					game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args))
-					game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args2))
-
-					task.wait(0) -- Wait before spawning the next set of balloons
-				end
-			end)
-		end
+      if spawnAllBalloons then
+         task.spawn(function()
+            while spawnAllBalloons do
+               local args = {
+                  [1] = 201,
+                  [2] = 1311,
+                  [3] = {}
+               }
+               local args2 = {
+                  [1] = 202
+               }
+               local balloonIDs = {1311, 1312, 1313, 1314, 1315, 1039}
+               for _, id in ipairs(balloonIDs) do
+                  args[2] = id
+                  game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args))
+                  game:GetService("ReplicatedStorage").Connection:InvokeServer(unpack(args2))
+               end
+               task.wait(0)
+            end
+         end)
+      end
    end,
 })
 
-local Tab = Window:CreateTab("Hubs de skins ðŸ‡§ðŸ‡·Â·",93714834687143) -- Title, Image
+local Tab = Window:CreateTab("Hubs de skins 🇧🇷", 93714834687143) -- Title, Image
 
 Tab:CreateButton({
-    Name = "ðŸ‡§ðŸ‡· ArmazÃ©m rÃ¡pido de skins ðŸ‡§ðŸ‡·",
+    Name = "🇧🇷 Armazém rápido de skins 🇧🇷",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/carloreidanoite/Caaarrtr/refs/heads/main/Save"))()
     end
 })
 
 Tab:CreateButton({
-    Name = "ðŸ‡§ðŸ‡· AcessÃ³rios por id V2 ðŸ‡§ðŸ‡·",
+    Name = "🇧🇷 Acessórios por ID V2 🇧🇷",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/J3Aiv8y2"))()
     end
