@@ -12,7 +12,8 @@ local allowedIDs = {
     [8089681149] = true,  --  "connor2"
     [2368899539] = true,  --  "Bruna"
     [1520840583] = true,  --  "shei"
-    [5793758650] = true  --  "emp"
+    [5793758650] = true,  --  "emp"
+    [8293094855] = true  --  "emp2"
 
 }
 
