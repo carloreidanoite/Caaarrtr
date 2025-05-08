@@ -15,7 +15,8 @@ local allowedIDs = {
     [5793758650] = true,  --  "emp"
     [8293094855] = true,  --  "emp2"
     [2841719785] = true,  --  "dexter"
-    [8076462146] = true  --  "dext2"
+    [8076462146] = true,  --  "dext2"
+    [8311708768] = true  --  "dext3"
 
 }
 
