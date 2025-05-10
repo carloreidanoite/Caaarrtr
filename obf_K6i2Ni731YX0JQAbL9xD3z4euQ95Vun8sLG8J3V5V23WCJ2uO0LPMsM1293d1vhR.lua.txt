@@ -1,28 +1,5 @@
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
-local allowedIDs = {
-    [3022981972] = true,  --  "semnexo"
-    [664059035] = true,  --  "jcie"
-    [4199321795] = true,  --  "Wave sadness"
-    [5014280564] = true,  --  "Wave"
-    [1769646881] = true,  --  "Wavezada"
-    [2844968286] = true,  --  "Von"
-    [1392571891] = true,  --  "Soneca"
-    [7916468900] = true,  --  "connor1"
-    [8089681149] = true,  --  "connor2"
-    [2368899539] = true,  --  "Bruna"
-    [1520840583] = true,  --  "shei"
-    [5793758650] = true,  --  "emp"
-    [8293094855] = true,  --  "emp2"
-    [2841719785] = true,  --  "dexter"
-    [8076462146] = true  --  "dext2"
-
-}
-
-if not allowedIDs[LocalPlayer.UserId] then
-    LocalPlayer:Kick("Sem permissao")
-    return
-end
 
 local playerHeadIcon = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. LocalPlayer.UserId .. "&width=420&height=420&format=png"
 
