@@ -1,0 +1,1266 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "OFFSALES FURNITURE MENU", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "🌇PÔSTERS🌆",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Feito por semnexo & MN_Von "
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+Tab:AddButton({ Name = 'Pôster de "Roblox desthrun" $100', Callback = function() local args = { [1] = 1, [2] = 123, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster patrocinado $200', Callback = function() local args = { [1] = 1, [2] = 134, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster de "Get Eaten" $30', Callback = function() local args = { [1] = 1, [2] = 11, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster de "Raise an Epic turtle" $30', Callback = function() local args = { [1] = 1, [2] = 25, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster de OVNI Meep $30', Callback = function() local args = { [1] = 1, [2] = 26, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster de "Phantom Forces" $30', Callback = function() local args = { [1] = 1, [2] = 29, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster de "Chad Alan" $30', Callback = function() local args = { [1] = 1, [2] = 36, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster de "SallyGreenGamer" $30', Callback = function() local args = { [1] = 1, [2] = 37, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster de Diamante $30', Callback = function() local args = { [1] = 1, [2] = 38, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster de "Dollastic" $30', Callback = function() local args = { [1] = 1, [2] = 39, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster de "EthanGamerTV" $30', Callback = function() local args = { [1] = 1, [2] = 40, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster de "RadioJH" $30', Callback = function() local args = { [1] = 1, [2] = 41, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster Alex $30', Callback = function() local args = { [1] = 1, [2] = 62, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster "denisdaily" $30', Callback = function() local args = { [1] = 1, [2] = 63, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster "SamanthaStrange" $30', Callback = function() local args = { [1] = 1, [2] = 64, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster "Subzero" $30', Callback = function() local args = { [1] = 1, [2] = 65, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Flamingo $30', Callback = function() local args = { [1] = 1, [2] = 97, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Yammy xox $30', Callback = function() local args = { [1] = 1, [2] = 98, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Elvo São Paulino $30', Callback = function() local args = { [1] = 1, [2] = 112, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Slender $30', Callback = function() local args = { [1] = 1, [2] = 115, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+Tab:AddButton({ Name = 'Pôster de "Poke" $30', Callback = function() local args = { [1] = 1, [2] = 211, [3] = { ["Quantity"] = 1, ["CurrencyType"] = 1, ["ColorId"] = 1 } } game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args)) end })
+
+local Tab = Window:MakeTab({
+	Name = "🟦PLUS ITENS➕",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Pista Pequena ($200)",
+	Callback = function()
+		local args = {
+			[1] = 1,
+			[2] = 54,
+			[3] = {
+				["Quantity"] = 1,
+				["CurrencyType"] = 1,
+				["ColorId"] = 1
+			}
+		}
+		game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+	end
+})
+
+Tab:AddButton({
+	Name = "Pizza ($500)",
+	Callback = function()
+		local args = {
+			[1] = 1,
+			[2] = 55,
+			[3] = {
+				["Quantity"] = 1,
+				["CurrencyType"] = 1,
+				["ColorId"] = 1
+			}
+		}
+		game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+	end
+})
+
+Tab:AddButton({
+	Name = "Pista Grande ($400)",
+	Callback = function()
+		local args = {
+			[1] = 1,
+			[2] = 83,
+			[3] = {
+				["Quantity"] = 1,
+				["CurrencyType"] = 1,
+				["ColorId"] = 1
+			}
+		}
+		game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "🕷️HALLOWEEN🎃",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({Name = "Cama Halloween $2500", Callback = function()
+	local args = {[1]=1, [2]=56, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Puff Halloween $350", Callback = function()
+	local args = {[1]=1, [2]=57, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Sofá velho $750", Callback = function()
+	local args = {[1]=1, [2]=58, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Abóbora Pequena $150", Callback = function()
+	local args = {[1]=1, [2]=59, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Fantasma $150", Callback = function()
+	local args = {[1]=1, [2]=60, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Lápide $150", Callback = function()
+	local args = {[1]=1, [2]=61, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Morcego $200", Callback = function()
+	local args = {[1]=1, [2]=66, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Penteadeira Gótica $400", Callback = function()
+	local args = {[1]=1, [2]=255, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Mesinha de canto gótica $300", Callback = function()
+	local args = {[1]=1, [2]=256, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Cadeira de camarim gótica $350", Callback = function()
+	local args = {[1]=1, [2]=257, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Abajur Gótico $200", Callback = function()
+	local args = {[1]=1, [2]=258, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Mesa gótica $500", Callback = function()
+	local args = {[1]=1, [2]=259, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Vela gótica $100", Callback = function()
+	local args = {[1]=1, [2]=260, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Cama de caixão $1500", Callback = function()
+	local args = {[1]=1, [2]=261, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Pilha de abóbora $500", Callback = function()
+	local args = {[1]=1, [2]=262, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Brinquedo de espinhos $150", Callback = function()
+	local args = {[1]=1, [2]=263, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Cama gótica $1500", Callback = function()
+	local args = {[1]=1, [2]=264, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Cadeira de gaiola $100", Callback = function()
+	local args = {[1]=1, [2]=460, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Cama de abóbora (MeepCity)", Callback = function()
+	local args = {[1]=1, [2]=461, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Livro mágico $100", Callback = function()
+	local args = {[1]=1, [2]=462, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Coordenação motora $100", Callback = function()
+	local args = {[1]=1, [2]=463, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Cama abóbora $100", Callback = function()
+	local args = {[1]=1, [2]=464, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Cadeira de jantar nova $120", Callback = function()
+	local args = {[1]=1, [2]=470, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Cadeira de jantar velha $120", Callback = function()
+	local args = {[1]=1, [2]=471, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Mesa de caixa de bilhar $120", Callback = function()
+	local args = {[1]=1, [2]=472, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Abóbora transbordante $120", Callback = function()
+	local args = {[1]=1, [2]=473, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Planta ossuda $120", Callback = function()
+	local args = {[1]=1, [2]=474, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Árvore de rosa $120", Callback = function()
+	local args = {[1]=1, [2]=475, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Mesa de aranha doce $120", Callback = function()
+	local args = {[1]=1, [2]=476, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Balanço de aranha doce $120", Callback = function()
+	local args = {[1]=1, [2]=477, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+Tab:AddButton({Name = "Trampolim de aranha doce $120", Callback = function()
+	local args = {[1]=1, [2]=478, [3]={Quantity=1, CurrencyType=1, ColorId=1}}
+	game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+end})
+
+local Tab = Window:MakeTab({
+	Name = "❣️DIA DOS NAMORADOS ❣️",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = 'Cama de casal de coração $150',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 104,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Vaso de rosas $1000',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 103,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Bombado $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 331,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Cadeira de coração $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 332,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Estante coração $400',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 333,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Mesa de coração $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 334,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Sofá coração $400',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 335,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Trono coração $800',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 336,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Mesa para pés de coração $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 337,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Cadeira de coração $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 338,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Espelho de coração $400',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 339,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Coração no chão $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 340,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Coelho dourado $500',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 341,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Árvore no vaso de coração $300',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 342,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Árvore coração sakura $5000',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 343,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Banco de fileira de coração $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 494,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Spa de coração $500',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 495,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Sofá grande de coração $300',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 496,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Penteadeira de coração $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 497,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Arte decoração $500',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 498,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Cadeira de balanço de coração $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 499,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Abajur de coração $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 500,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Vela de três pavios coração $150',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 501,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Cômoda fofa de coração $300',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 502,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Vaso extravagante de coração $800',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 503,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+local Tab = Window:MakeTab({
+	Name = "🍀EVENTO DE TREVOS🍀",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = 'Sofá trevo $300',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 348,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Bufi trevo $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 349,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Mesa trevo $400',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 350,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Cadeira trevo $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 351,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Balde de ouro $1000',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 352,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Caminho de trevos $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 353,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Faixa de trevos $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 354,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Abajur de trevos $400',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 355,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Cadeira de trevos $300',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 356,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+local Tab = Window:MakeTab({
+	Name = "🐰 PÁSCOA 🐰",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = 'Suporte de coelhinho $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 389,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Tapete de ovos $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 392,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Cadeira de ovo $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 393,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Poltrona de coelhinho $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 394,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Luminária de páscoa',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 391,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Berço de bebê de ovo',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 388,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+local Tab = Window:MakeTab({
+	Name = "🍬PACOTE DE DOCES🍭",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = 'Cama de doces $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 411,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Pirulito azul $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 412,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Pirulito rosa $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 413,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Sofá de picolé roxo $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 414,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Sofá pirulito amarelo $300',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 415,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Janela de rosquinha $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 416,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Mesa bis $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 417,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Algodão doce $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 418,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Poltrona cupcake azul $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 419,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Poltrona cupcake amarelo $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 420,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Banqueta de hortelã $50',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 421,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+local Tab = Window:MakeTab({
+	Name = "MÓVEIS SIMPLES",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+    Name = 'Prateleira Simples $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 437,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Sofá simples $300',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 438,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Mesa de centro simples $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 439,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Cadeira simples $200',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 440,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Mesinha simples $150',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 441,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Tv simples " $300',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 442,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Lâmpada simples $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 443,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Prateleira de parede simples $100',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 444,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+Tab:AddButton({
+    Name = 'Abajur simples $50',
+    Callback = function()
+        local args = {
+            [1] = 1,
+            [2] = 445,
+            [3] = {
+                ["Quantity"] = 1,
+                ["CurrencyType"] = 1,
+                ["ColorId"] = 1
+            }
+        }
+        game:GetService("ReplicatedStorage").FunctionConnections.RequestPurchaseFromItemShop:InvokeServer(unpack(args))
+    end
+})
+
+OrionLib:Init()
