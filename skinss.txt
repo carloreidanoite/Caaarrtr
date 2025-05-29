@@ -1,0 +1,1433 @@
+debugX = true
+
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Hub de Skins",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "",
+   LoadingSubtitle = "by semnexo",
+   Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+
+   Discord = {
+      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided", -- Use this to tell the user how to get a key
+      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"lebronjames3608"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local Tab = Window:CreateTab("Skins combo", 123226841323242) -- Title, Image
+
+local Section = Tab:CreateSection("Combo skins raras")
+
+local Button = Tab:CreateButton({
+   Name = "Domino Crown",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/6trZh06B"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Federation",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/YTYxQvgQ"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Sparkle times",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/UtBXujkP"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Sinister",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/RE4wJ3tv"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
+   Name = "Oversear",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/Szxc0baC"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Transparent items",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/fuhxPBZr"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Black Iron skin",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/td2ZFyBz"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Boss hat",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/2MY3TxKP"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Sk4ter",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/RetL7Qxf"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Antlers",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/cvx9U36J"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Eyes",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/M71RXByw"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Pumpkin",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/3LFKHcSq"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Valkyrias",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/9CDVqFHt"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Dominus",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/xTTJDvyv"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name =  "Sparkle time fedora",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/LXqLq9gA"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Viridian skin",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/QKqb4ix8"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Fedora Pinstripe",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/a5WNAYGs"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Crown of the Night",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/Grp1zUA1"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Shaggy",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/Nyriq2QJ"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Books",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/pst2T4WW"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Shades Aviator",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/t4hUJ0MG"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Teapots",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/xNH7gu5N"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Metaverse",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/jDtC6fGT"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Effects 1",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/P4S5P3uc"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Effects 2",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/690F3u35"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Effects 3",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/rcPZFpvL"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Effects 4",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/QgAgFe4S"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Effects 5",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/7dC0f4ed"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Effects 6",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/S6JxVVAx"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Effects Blue",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/Z7egV0hu"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Tentacles",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/6FaKMru4"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Shrek Bags",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/9dgYvsp3"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Snow Acessories",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/zsLVwjim"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Minions Bags",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/xaV6rpJi"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "ClockWorks",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/TFbL0jTy"))()
+   end,
+})
+
+local Button1 = Tab:CreateButton({
+   Name = "Bombastic",
+   Callback = function()
+local args = {
+    [1] = {
+        ["HatAccessory"] = "136803077,915269200,1241217793,489171096,439944088",
+        ["RightLegColor"] = {
+            [1] = "110",
+            [2] = "153",
+            [3] = "202"
+        },
+        ["LeftLegColor"] = {
+            [1] = "110",
+            [2] = "153",
+            [3] = "202"
+        },
+        ["WidthScale"] = 1,
+        ["BodyTypeScale"] = 0,
+        ["ShouldersAccessory"] = "250394348,147144571,293316227,928906151,262467755",
+        ["LeftArmColor"] = {
+            [1] = "229",
+            [2] = "228",
+            [3] = "223"
+        },
+        ["FaceAccessory"] = "3612253342,230767349,489170175,362029470,250405436",
+        ["Pants"] = 5227455075,
+        ["RightArmColor"] = {
+            [1] = "229",
+            [2] = "228",
+            [3] = "223"
+        },
+        ["HairAccessory"] = "17521801763,5731051458,5968041061",
+        ["RightArm"] = 0,
+        ["Torso"] = 0,
+        ["Head"] = 0,
+        ["Face"] = 0,
+        ["FrontAccessory"] = "190247723,286524574,628774811,1532390,1180422291",
+        ["ProportionScale"] = 0,
+        ["LeftArm"] = 0,
+        ["HeadColor"] = {
+            [1] = "229",
+            [2] = "228",
+            [3] = "223"
+        },
+        ["TorsoColor"] = {
+            [1] = "242",
+            [2] = "243",
+            [3] = "243"
+        },
+        ["DepthScale"] = 1,
+        ["RightLeg"] = 0,
+        ["HeadScale"] = 1,
+        ["HeightScale"] = 1,
+        ["Shirt"] = 5227449755,
+        ["LeftLeg"] = 0
+    }
+}
+
+game:GetService("ReplicatedStorage").FunctionConnections.NewAESaveAvatar:InvokeServer(unpack(args))
+   end,
+})
+
+local Button2 = Tab:CreateButton({
+   Name = "Xanwood",
+   Callback = function()
+local args = {
+    [1] = {
+        ["WalkAnimation"] = 0,
+        ["ShouldersAccessory"] = "188695491,2705898346",
+        ["HatAccessory"] = "144507342,139618147,153962038,228450392,136803395",
+        ["RightLegColor"] = {
+            [1] = "110.00000104308128",
+            [2] = "153.00000607967377",
+            [3] = "202.00000315904617"
+        },
+        ["SwimAnimation"] = 0,
+        ["Face"] = 0,
+        ["ProportionScale"] = 0,
+        ["GraphicTShirt"] = 0,
+        ["BodyTypeScale"] = 0,
+        ["ClimbAnimation"] = 0,
+        ["LeftArmColor"] = {
+            [1] = "229.00000154972076",
+            [2] = "228.0000016093254",
+            [3] = "223.00000190734863"
+        },
+        ["Emotes"] = {
+            ["1"] = {
+                [1] = 3576686446
+            },
+            ["8"] = {
+                [1] = 4646306072
+            },
+            ["3"] = {
+                [1] = 3994127840
+            },
+            ["2"] = {
+                [1] = 3716636630
+            },
+            ["5"] = {
+                [1] = 4049646104
+            },
+            ["4"] = {
+                [1] = 4102315500
+            },
+            ["7"] = {
+                [1] = 4849497510
+            },
+            ["6"] = {
+                [1] = 4391208058
+            }
+        },
+        ["Pants"] = 6335747569,
+        ["RightArmColor"] = {
+            [1] = "229.00000154972076",
+            [2] = "228.0000016093254",
+            [3] = "223.00000190734863"
+        },
+        ["LeftArm"] = 0,
+        ["IdleAnimation"] = 0,
+        ["WidthScale"] = 1,
+        ["RightArm"] = 0,
+        ["FallAnimation"] = 0,
+        ["Head"] = 0,
+        ["LeftLegColor"] = {
+            [1] = "110.00000104308128",
+            [2] = "153.00000607967377",
+            [3] = "202.00000315904617"
+        },
+        ["Shirt"] = 6335737822,
+        ["JumpAnimation"] = 0,
+        ["RunAnimation"] = 0,
+        ["HeadColor"] = {
+            [1] = "229.00000154972076",
+            [2] = "228.0000016093254",
+            [3] = "223.00000190734863"
+        },
+        ["TorsoColor"] = {
+            [1] = "242.00000077486038",
+            [2] = "243.00000071525574",
+            [3] = "243.00000071525574"
+        },
+        ["DepthScale"] = 1,
+        ["RightLeg"] = 0,
+        ["HeadScale"] = 1,
+        ["HeightScale"] = 1,
+        ["Torso"] = 0,
+        ["LeftLeg"] = 0
+    }
+}
+
+game:GetService("ReplicatedStorage").FunctionConnections.NewAESaveAvatar:InvokeServer(unpack(args))
+   end,
+})
+
+local Button3 = Tab:CreateButton({
+   Name = "Tix",
+   Callback = function()
+local args = {
+    [1] = {
+        ["SwimAnimation"] = 0,
+        ["Torso"] = 0,
+        ["ProportionScale"] = 0,
+        ["ClimbAnimation"] = 0,
+        ["FrontAccessory"] = "390972597,390970263,390970033,390970950,385895944",
+        ["FaceAccessory"] = "385892087,385892523,385892357,385896840,385892209",
+        ["RightArmColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["HairAccessory"] = "382881521,382881972,385891566,382881784,382881373",
+        ["RightArm"] = 0,
+        ["Head"] = 0,
+        ["FallAnimation"] = 0,
+        ["TorsoColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["DepthScale"] = 0.800000011920929,
+        ["LeftArm"] = 0,
+        ["HeightScale"] = 0.800000011920929,
+        ["LeftLeg"] = 0,
+        ["RightLegColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["LeftLegColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["JumpAnimation"] = 0,
+        ["BodyTypeScale"] = 0,
+        ["RunAnimation"] = 0,
+        ["LeftArmColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["Emotes"] = {
+            ["1"] = {
+                [1] = 3576686446
+            },
+            ["8"] = {
+                [1] = 4646306072
+            },
+            ["3"] = {
+                [1] = 3994127840
+            },
+            ["2"] = {
+                [1] = 3716636630
+            },
+            ["5"] = {
+                [1] = 4049646104
+            },
+            ["4"] = {
+                [1] = 4102315500
+            },
+            ["7"] = {
+                [1] = 4849497510
+            },
+            ["6"] = {
+                [1] = 4391208058
+            }
+        },
+        ["Pants"] = 4990711270,
+        ["HatAccessory"] = "6125503,390970803,6512277,382880657,19319094",
+        ["Face"] = 385889916,
+        ["GraphicTShirt"] = 0,
+        ["WidthScale"] = 0.800000011920929,
+        ["RightLeg"] = 0,
+        ["ShouldersAccessory"] = "390972175,385893076,390971171,390970497,390972428",
+        ["HeadColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["WalkAnimation"] = 0,
+        ["IdleAnimation"] = 0,
+        ["NeckAccessory"] = "382880989,382880833,382881237,382881117,383071536",
+        ["HeadScale"] = 1,
+        ["Shirt"] = 383093690,
+        ["BackAccessory"] = "335080779,5546374639",
+        ["WaistAccessory"] = "114804526826624"
+    }
+}
+
+game:GetService("ReplicatedStorage").FunctionConnections.NewAESaveAvatar:InvokeServer(unpack(args))
+   end,
+})
+
+local Button4 = Tab:CreateButton({
+   Name = "Adurite",
+   Callback = function()
+local args = {
+    [1] = {
+        ["SwimAnimation"] = 0,
+        ["Torso"] = 0,
+        ["ProportionScale"] = 0,
+        ["ClimbAnimation"] = 0,
+        ["Shirt"] = 1286621989,
+        ["FaceAccessory"] = "2163545468,330233649,501941329,1191145114,162066267",
+        ["RightArmColor"] = {
+            [1] = "229.00000154972076",
+            [2] = "228.0000016093254",
+            [3] = "223.00000190734863"
+        },
+        ["HairAccessory"] = "2705862977,2705861608,5731052645,3612044717,2163544449",
+        ["RightArm"] = 0,
+        ["Head"] = 0,
+        ["FallAnimation"] = 0,
+        ["TorsoColor"] = {
+            [1] = "242.00000077486038",
+            [2] = "243.00000071525574",
+            [3] = "243.00000071525574"
+        },
+        ["DepthScale"] = 1,
+        ["LeftArm"] = 0,
+        ["HeightScale"] = 1,
+        ["LeftLeg"] = 0,
+        ["RightLegColor"] = {
+            [1] = "110.00000104308128",
+            [2] = "153.00000607967377",
+            [3] = "202.00000315904617"
+        },
+        ["LeftLegColor"] = {
+            [1] = "110.00000104308128",
+            [2] = "153.00000607967377",
+            [3] = "202.00000315904617"
+        },
+        ["WidthScale"] = 1,
+        ["BodyTypeScale"] = 0,
+        ["RunAnimation"] = 0,
+        ["LeftArmColor"] = {
+            [1] = "229.00000154972076",
+            [2] = "228.0000016093254",
+            [3] = "223.00000190734863"
+        },
+        ["Emotes"] = {
+            ["1"] = {
+                [1] = 3576686446
+            },
+            ["8"] = {
+                [1] = 4646306072
+            },
+            ["3"] = {
+                [1] = 3994127840
+            },
+            ["2"] = {
+                [1] = 3716636630
+            },
+            ["5"] = {
+                [1] = 4049646104
+            },
+            ["4"] = {
+                [1] = 4102315500
+            },
+            ["7"] = {
+                [1] = 4849497510
+            },
+            ["6"] = {
+                [1] = 4391208058
+            }
+        },
+        ["Pants"] = 1286622816,
+        ["HatAccessory"] = "162066057,162068944,162066176,628769409,162067805",
+        ["Face"] = 0,
+        ["GraphicTShirt"] = 0,
+        ["HeadColor"] = {
+            [1] = "229.00000154972076",
+            [2] = "228.0000016093254",
+            [3] = "223.00000190734863"
+        },
+        ["WalkAnimation"] = 0,
+        ["IdleAnimation"] = 0,
+        ["JumpAnimation"] = 0,
+        ["HeadScale"] = 1,
+        ["FrontAccessory"] = "1215369300,928910453,162068899,334106334,162066412",
+        ["RightLeg"] = 0,
+        ["ShouldersAccessory"] = "556820828,439946101,162066371,162068829,162066310"
+    }
+}
+
+game:GetService("ReplicatedStorage").FunctionConnections.NewAESaveAvatar:InvokeServer(unpack(args))
+   end,
+})
+
+local Button5 = Tab:CreateButton({
+   Name = "Wanwood",
+   Callback = function()
+local args = {
+    [1] = {
+        ["SwimAnimation"] = 0,
+        ["Torso"] = 0,
+        ["ProportionScale"] = 0,
+        ["ClimbAnimation"] = 0,
+        ["FrontAccessory"] = "1665533709,168167114,1247634,139618606,334107132",
+        ["FaceAccessory"] = "3271957,2705893733,2163560825,3612257378,139618490",
+        ["RightArmColor"] = {
+            [1] = "229.00000154972076",
+            [2] = "228.0000016093254",
+            [3] = "223.00000190734863"
+        },
+        ["HairAccessory"] = "489168523,330233876,1532396,628803591,156105465",
+        ["RightArm"] = 0,
+        ["Head"] = 0,
+        ["FallAnimation"] = 0,
+        ["TorsoColor"] = {
+            [1] = "242.00000077486038",
+            [2] = "243.00000071525574",
+            [3] = "243.00000071525574"
+        },
+        ["DepthScale"] = 1,
+        ["LeftArm"] = 0,
+        ["HeightScale"] = 1,
+        ["LeftLeg"] = 0,
+        ["RightLegColor"] = {
+            [1] = "110.00000104308128",
+            [2] = "153.00000607967377",
+            [3] = "202.00000315904617"
+        },
+        ["LeftLegColor"] = {
+            [1] = "110.00000104308128",
+            [2] = "153.00000607967377",
+            [3] = "202.00000315904617"
+        },
+        ["WidthScale"] = 1,
+        ["BodyTypeScale"] = 0,
+        ["RunAnimation"] = 0,
+        ["LeftArmColor"] = {
+            [1] = "229.00000154972076",
+            [2] = "228.0000016093254",
+            [3] = "223.00000190734863"
+        },
+        ["Emotes"] = {
+            ["1"] = {
+                [1] = 3576686446
+            },
+            ["8"] = {
+                [1] = 4646306072
+            },
+            ["3"] = {
+                [1] = 3994127840
+            },
+            ["2"] = {
+                [1] = 3716636630
+            },
+            ["5"] = {
+                [1] = 4049646104
+            },
+            ["4"] = {
+                [1] = 4102315500
+            },
+            ["7"] = {
+                [1] = 4849497510
+            },
+            ["6"] = {
+                [1] = 4391208058
+            }
+        },
+        ["Pants"] = 5986701306,
+        ["HatAccessory"] = "5731056029",
+        ["Face"] = 0,
+        ["GraphicTShirt"] = 0,
+        ["HeadColor"] = {
+            [1] = "229.00000154972076",
+            [2] = "228.0000016093254",
+            [3] = "223.00000190734863"
+        },
+        ["WalkAnimation"] = 0,
+        ["IdleAnimation"] = 0,
+        ["JumpAnimation"] = 0,
+        ["HeadScale"] = 1,
+        ["RightLeg"] = 0,
+        ["Shirt"] = 5986700823,
+        ["ShouldersAccessory"] = "928905236,139618676,286525750,9910070,1272714"
+    }
+}
+
+game:GetService("ReplicatedStorage").FunctionConnections.NewAESaveAvatar:InvokeServer(unpack(args))
+   end,
+})
+
+local Button6 = Tab:CreateButton({
+   Name = "Cones",
+   Callback = function()
+local args = {
+    [1] = {
+        ["SwimAnimation"] = 0,
+        ["Face"] = 0,
+        ["ProportionScale"] = 0,
+        ["ClimbAnimation"] = 0,
+        ["Shirt"] = 855760101,
+        ["RightArmColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["RightArm"] = 0,
+        ["Head"] = 0,
+        ["FallAnimation"] = 0,
+        ["TorsoColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["DepthScale"] = 0.800000011920929,
+        ["LeftArm"] = 0,
+        ["HeightScale"] = 0.800000011920929,
+        ["LeftLeg"] = 0,
+        ["RightLegColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["LeftLegColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["WidthScale"] = 0.800000011920929,
+        ["BodyTypeScale"] = 0,
+        ["RunAnimation"] = 0,
+        ["LeftArmColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["Emotes"] = {
+            ["1"] = {
+                [1] = 3576686446
+            },
+            ["8"] = {
+                [1] = 4646306072
+            },
+            ["3"] = {
+                [1] = 3994127840
+            },
+            ["2"] = {
+                [1] = 3716636630
+            },
+            ["5"] = {
+                [1] = 4049646104
+            },
+            ["4"] = {
+                [1] = 4102315500
+            },
+            ["7"] = {
+                [1] = 4849497510
+            },
+            ["6"] = {
+                [1] = 4391208058
+            }
+        },
+        ["Pants"] = 855780360,
+        ["HatAccessory"] = "1082932,880452192,3377530077,501965794,1609390589",
+        ["WalkAnimation"] = 0,
+        ["FrontAccessory"] = "17266466821,7243892334,6590362906,12271996249,12216459725",
+        ["HeadColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["JumpAnimation"] = 0,
+        ["IdleAnimation"] = 0,
+        ["Torso"] = 0,
+        ["HeadScale"] = 1,
+        ["GraphicTShirt"] = 0,
+        ["RightLeg"] = 0,
+        ["ShouldersAccessory"] = "563291875,1360069530,445114029,151784526,972176293"
+    }
+}
+
+game:GetService("ReplicatedStorage").FunctionConnections.NewAESaveAvatar:InvokeServer(unpack(args))
+   end,
+})
+
+local Button7 = Tab:CreateButton({
+   Name = "Rainbow Omega",
+   Callback = function()
+local args = {
+    [1] = {
+        ["SwimAnimation"] = 0,
+        ["Torso"] = 0,
+        ["ProportionScale"] = 0,
+        ["ClimbAnimation"] = 0,
+        ["FrontAccessory"] = "2606178863,2274721734,2163556359,2705872563,1241205162",
+        ["FaceAccessory"] = "2705875296",
+        ["RightArmColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["RightArm"] = 0,
+        ["Head"] = 0,
+        ["FallAnimation"] = 0,
+        ["TorsoColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["DepthScale"] = 0.800000011920929,
+        ["LeftArm"] = 0,
+        ["HeightScale"] = 0.800000011920929,
+        ["LeftLeg"] = 0,
+        ["RightLegColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["LeftLegColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["WidthScale"] = 0.800000011920929,
+        ["BodyTypeScale"] = 0,
+        ["RunAnimation"] = 0,
+        ["LeftArmColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["Emotes"] = {
+            ["1"] = {
+                [1] = 3576686446
+            },
+            ["8"] = {
+                [1] = 4646306072
+            },
+            ["3"] = {
+                [1] = 3994127840
+            },
+            ["2"] = {
+                [1] = 3716636630
+            },
+            ["5"] = {
+                [1] = 4049646104
+            },
+            ["4"] = {
+                [1] = 4102315500
+            },
+            ["7"] = {
+                [1] = 4849497510
+            },
+            ["6"] = {
+                [1] = 4391208058
+            }
+        },
+        ["Pants"] = 5489286792,
+        ["HatAccessory"] = "321570467,158068502,188695304,232489854,283749923",
+        ["Face"] = 0,
+        ["WalkAnimation"] = 0,
+        ["HeadColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["GraphicTShirt"] = 0,
+        ["IdleAnimation"] = 0,
+        ["JumpAnimation"] = 0,
+        ["HeadScale"] = 1,
+        ["RightLeg"] = 0,
+        ["Shirt"] = 9788025076,
+        ["ShouldersAccessory"] = "302281542,928912152,835066038,928907217,489176525"
+    }
+}
+
+game:GetService("ReplicatedStorage").FunctionConnections.NewAESaveAvatar:InvokeServer(unpack(args))
+   end,
+})
+
+local Button8 = Tab:CreateButton({
+   Name = "Helm",
+   Callback = function()
+local args = {
+    [1] = {
+        ["WalkAnimation"] = 0,
+        ["Face"] = 0,
+        ["RightLegColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["HatAccessory"] = "9910420,1323367,1272715,6551281,22157971",
+        ["LeftLegColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["ProportionScale"] = 0,
+        ["Torso"] = 0,
+        ["BodyTypeScale"] = 0,
+        ["ClimbAnimation"] = 0,
+        ["Shirt"] = 17160711743,
+        ["Emotes"] = {
+            ["1"] = {
+                [1] = 3576686446
+            },
+            ["8"] = {
+                [1] = 4646306072
+            },
+            ["3"] = {
+                [1] = 3994127840
+            },
+            ["2"] = {
+                [1] = 3716636630
+            },
+            ["5"] = {
+                [1] = 4049646104
+            },
+            ["4"] = {
+                [1] = 4102315500
+            },
+            ["7"] = {
+                [1] = 4849497510
+            },
+            ["6"] = {
+                [1] = 4391208058
+            }
+        },
+        ["Pants"] = 730003802,
+        ["RightArmColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["GraphicTShirt"] = 0,
+        ["LeftArm"] = 0,
+        ["IdleAnimation"] = 0,
+        ["RightArm"] = 0,
+        ["SwimAnimation"] = 0,
+        ["Head"] = 0,
+        ["FallAnimation"] = 0,
+        ["JumpAnimation"] = 0,
+        ["WidthScale"] = 0.800000011920929,
+        ["RunAnimation"] = 0,
+        ["HeadColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["TorsoColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["DepthScale"] = 0.800000011920929,
+        ["RightLeg"] = 0,
+        ["HeadScale"] = 1,
+        ["HeightScale"] = 0.800000011920929,
+        ["LeftArmColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["LeftLeg"] = 0
+    }
+}
+
+game:GetService("ReplicatedStorage").FunctionConnections.NewAESaveAvatar:InvokeServer(unpack(args))
+   end,
+})
+
+local Button9 = Tab:CreateButton({
+   Name = "Crown Os's",
+   Callback = function()
+local args = {
+    [1] = {
+        ["SwimAnimation"] = 0,
+        ["Torso"] = 0,
+        ["ProportionScale"] = 0,
+        ["ClimbAnimation"] = 0,
+        ["FrontAccessory"] = "5731056029",
+        ["FaceAccessory"] = "5731057209",
+        ["RightArmColor"] = {
+            [1] = "229.00000154972076",
+            [2] = "228.0000016093254",
+            [3] = "223.00000190734863"
+        },
+        ["HairAccessory"] = "5731975339",
+        ["RightArm"] = 0,
+        ["Head"] = 0,
+        ["FallAnimation"] = 0,
+        ["TorsoColor"] = {
+            [1] = "242.00000077486038",
+            [2] = "243.00000071525574",
+            [3] = "243.00000071525574"
+        },
+        ["DepthScale"] = 1,
+        ["LeftArm"] = 0,
+        ["HeightScale"] = 1,
+        ["LeftLeg"] = 0,
+        ["RightLegColor"] = {
+            [1] = "110.00000104308128",
+            [2] = "153.00000607967377",
+            [3] = "202.00000315904617"
+        },
+        ["LeftLegColor"] = {
+            [1] = "110.00000104308128",
+            [2] = "153.00000607967377",
+            [3] = "202.00000315904617"
+        },
+        ["WidthScale"] = 1,
+        ["BodyTypeScale"] = 0,
+        ["RunAnimation"] = 0,
+        ["LeftArmColor"] = {
+            [1] = "229.00000154972076",
+            [2] = "228.0000016093254",
+            [3] = "223.00000190734863"
+        },
+        ["Emotes"] = {
+            ["1"] = {
+                [1] = 3576686446
+            },
+            ["8"] = {
+                [1] = 4646306072
+            },
+            ["3"] = {
+                [1] = 3994127840
+            },
+            ["2"] = {
+                [1] = 3716636630
+            },
+            ["5"] = {
+                [1] = 4049646104
+            },
+            ["4"] = {
+                [1] = 4102315500
+            },
+            ["7"] = {
+                [1] = 4849497510
+            },
+            ["6"] = {
+                [1] = 4391208058
+            }
+        },
+        ["Pants"] = 0,
+        ["HatAccessory"] = "5731053584,5731052645,5731050224,5731051458",
+        ["Face"] = 0,
+        ["GraphicTShirt"] = 0,
+        ["HeadColor"] = {
+            [1] = "229.00000154972076",
+            [2] = "228.0000016093254",
+            [3] = "223.00000190734863"
+        },
+        ["WalkAnimation"] = 0,
+        ["IdleAnimation"] = 0,
+        ["JumpAnimation"] = 0,
+        ["HeadScale"] = 1,
+        ["RightLeg"] = 0,
+        ["Shirt"] = 0,
+        ["ShouldersAccessory"] = "5731054790"
+    }
+}
+
+game:GetService("ReplicatedStorage").FunctionConnections.NewAESaveAvatar:InvokeServer(unpack(args))
+
+   end,
+})
+
+local Button10 = Tab:CreateButton({
+   Name = "Blueestel",
+   Callback = function()
+local args = {
+    [1] = {
+        ["SwimAnimation"] = 0,
+        ["Torso"] = 0,
+        ["ProportionScale"] = 0,
+        ["ClimbAnimation"] = 0,
+        ["FrontAccessory"] = "362080535,190247659,1178169142,1483632,79402992",
+        ["FaceAccessory"] = "116786719,3271950,147144545,501962184,259423513",
+        ["RightArmColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["HairAccessory"] = "139617313,489196035,139617415,139617180,144507386",
+        ["RightArm"] = 0,
+        ["Head"] = 0,
+        ["FallAnimation"] = 0,
+        ["TorsoColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["DepthScale"] = 0.800000011920929,
+        ["LeftArm"] = 0,
+        ["HeightScale"] = 0.800000011920929,
+        ["LeftLeg"] = 0,
+        ["RightLegColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["LeftLegColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["JumpAnimation"] = 0,
+        ["BodyTypeScale"] = 0,
+        ["RunAnimation"] = 0,
+        ["LeftArmColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["Emotes"] = {
+            ["1"] = {
+                [1] = 3576686446
+            },
+            ["8"] = {
+                [1] = 4646306072
+            },
+            ["3"] = {
+                [1] = 3994127840
+            },
+            ["2"] = {
+                [1] = 3716636630
+            },
+            ["5"] = {
+                [1] = 4049646104
+            },
+            ["4"] = {
+                [1] = 4102315500
+            },
+            ["7"] = {
+                [1] = 4849497510
+            },
+            ["6"] = {
+                [1] = 4391208058
+            }
+        },
+        ["Pants"] = 855783877,
+        ["HatAccessory"] = "106689991,1172161,68258723,98346834,1459048",
+        ["Face"] = 144075659,
+        ["GraphicTShirt"] = 0,
+        ["Shirt"] = 855776103,
+        ["HeadColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["WalkAnimation"] = 0,
+        ["IdleAnimation"] = 0,
+        ["NeckAccessory"] = "136802923,928909186,1743931596,146083039,2316720567",
+        ["HeadScale"] = 1,
+        ["RightLeg"] = 0,
+        ["ShouldersAccessory"] = "286519153,233705354,1533893,628773137,114549522",
+        ["WidthScale"] = 0.800000011920929
+    }
+}
+
+game:GetService("ReplicatedStorage").FunctionConnections.NewAESaveAvatar:InvokeServer(unpack(args))
+   end,
+})
+
+local Button11 = Tab:CreateButton({
+   Name = "Money",
+   Callback = function()
+local args = {
+    [1] = {
+        ["SwimAnimation"] = 0,
+        ["Torso"] = 301824116,
+        ["ProportionScale"] = 0,
+        ["ClimbAnimation"] = 0,
+        ["FrontAccessory"] = "18148330481,9243927199,83672858218486,15121313203,13352926142",
+        ["FaceAccessory"] = "301820599",
+        ["RightArmColor"] = {
+            [1] = "234.00000125169754",
+            [2] = "184.00000423192978",
+            [3] = "147.00000643730164"
+        },
+        ["HairAccessory"] = "301819020",
+        ["RightArm"] = 301822975,
+        ["Head"] = 0,
+        ["FallAnimation"] = 0,
+        ["TorsoColor"] = {
+            [1] = "234.00000125169754",
+            [2] = "184.00000423192978",
+            [3] = "147.00000643730164"
+        },
+        ["DepthScale"] = 1.0353981852531433,
+        ["LeftArm"] = 301822804,
+        ["HeightScale"] = 1.0498254299163818,
+        ["LeftLeg"] = 301823492,
+        ["RightLegColor"] = {
+            [1] = "234.00000125169754",
+            [2] = "184.00000423192978",
+            [3] = "147.00000643730164"
+        },
+        ["LeftLegColor"] = {
+            [1] = "234.00000125169754",
+            [2] = "184.00000423192978",
+            [3] = "147.00000643730164"
+        },
+        ["JumpAnimation"] = 0,
+        ["BodyTypeScale"] = 0,
+        ["RunAnimation"] = 0,
+        ["LeftArmColor"] = {
+            [1] = "234.00000125169754",
+            [2] = "184.00000423192978",
+            [3] = "147.00000643730164"
+        },
+        ["Emotes"] = {
+            ["1"] = {
+                [1] = 3576686446
+            },
+            ["8"] = {
+                [1] = 4646306072
+            },
+            ["3"] = {
+                [1] = 3994127840
+            },
+            ["2"] = {
+                [1] = 3716636630
+            },
+            ["5"] = {
+                [1] = 4049646104
+            },
+            ["4"] = {
+                [1] = 4102315500
+            },
+            ["7"] = {
+                [1] = 4849497510
+            },
+            ["6"] = {
+                [1] = 4391208058
+            }
+        },
+        ["Pants"] = 301810800,
+        ["WidthScale"] = 1.0209709405899048,
+        ["HeadColor"] = {
+            [1] = "234.00000125169754",
+            [2] = "184.00000423192978",
+            [3] = "147.00000643730164"
+        },
+        ["WalkAnimation"] = 0,
+        ["IdleAnimation"] = 0,
+        ["Shirt"] = 301808824,
+        ["HeadScale"] = 1,
+        ["RightLeg"] = 301823806,
+        ["GraphicTShirt"] = 0,
+        ["Face"] = 301827089
+    }
+}
+
+game:GetService("ReplicatedStorage").FunctionConnections.NewAESaveAvatar:InvokeServer(unpack(args))
+   end,
+})
+
+local Button12 = Tab:CreateButton({
+   Name = "Blue effects 2",
+   Callback = function()
+local args = {
+    [1] = {
+        ["SwimAnimation"] = 0,
+        ["Torso"] = 0,
+        ["ProportionScale"] = 0,
+        ["ClimbAnimation"] = 0,
+        ["Shirt"] = 855776103,
+        ["FaceAccessory"] = "15184892213,141742418,14475035016,16733434702",
+        ["RightArmColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["HairAccessory"] = "16733528436,16733494880,14386488670,14984998636,12586915194",
+        ["RightArm"] = 0,
+        ["Head"] = 0,
+        ["FallAnimation"] = 0,
+        ["TorsoColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["DepthScale"] = 0.800000011920929,
+        ["LeftArm"] = 0,
+        ["HeightScale"] = 0.800000011920929,
+        ["LeftLeg"] = 0,
+        ["RightLegColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["LeftLegColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["JumpAnimation"] = 0,
+        ["BodyTypeScale"] = 0,
+        ["RunAnimation"] = 0,
+        ["LeftArmColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["Emotes"] = {
+            ["1"] = {
+                [1] = 3576686446
+            },
+            ["8"] = {
+                [1] = 4646306072
+            },
+            ["3"] = {
+                [1] = 3994127840
+            },
+            ["2"] = {
+                [1] = 3716636630
+            },
+            ["5"] = {
+                [1] = 4049646104
+            },
+            ["4"] = {
+                [1] = 4102315500
+            },
+            ["7"] = {
+                [1] = 4849497510
+            },
+            ["6"] = {
+                [1] = 4391208058
+            }
+        },
+        ["Pants"] = 855783877,
+        ["HatAccessory"] = "173624602,11629616540,7674568912,14565909491,14475019074",
+        ["Face"] = 0,
+        ["GraphicTShirt"] = 0,
+        ["WidthScale"] = 0.800000011920929,
+        ["FrontAccessory"] = "2649326901,187998056,7958793473,7674581408,192557913",
+        ["BackAccessory"] = "16088515658,14386491493,10201646721,16827758932,16972562122",
+        ["NeckAccessory"] = "183468963,112243615546468,8151404994,7674576391,9560392730",
+        ["WalkAnimation"] = 0,
+        ["IdleAnimation"] = 0,
+        ["HeadColor"] = {
+            [1] = "205.00000298023224",
+            [2] = "205.00000298023224",
+            [3] = "205.00000298023224"
+        },
+        ["HeadScale"] = 1,
+        ["RightLeg"] = 0,
+        ["WaistAccessory"] = "14475021971,6736323621,4962407085,11497600575,74891470",
+        ["ShouldersAccessory"] = "233253311,3345327302,14475030777,14524326503"
+    }
+}
+
+game:GetService("ReplicatedStorage").FunctionConnections.NewAESaveAvatar:InvokeServer(unpack(args))
+   end,
+})
+
+local Tab = Window:CreateTab("Utiliz�veis", 107203958883296) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "simple spy mobile",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/wfrefdewwss/Discord-Custom-Status-24-7/refs/heads/main/requirements.txt"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Simple spy pc/mobile",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Octo-Spy/refs/heads/main/Main.lua", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Infinite yield",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Nameless admin",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+   end,
+})
+
+Rayfield:LoadConfiguration()
